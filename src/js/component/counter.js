@@ -2,12 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 import moment from "moment";
+import "animate.css";
 
 export const Counter = (props) => {
 	if (count > 0) {
 		return (
 			<div className="container1">
-				<div className="center1">Hasta Nochebuena quedan...</div>
+				<div className="center1">
+					<p className="animate__animated animate__fadeInTopLeft">
+						Hasta Nochebuena quedan...
+					</p>
+				</div>
 				<div className="container">
 					<div className="clock">
 						<div className="center"></div>

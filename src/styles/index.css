@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gwendolyn&family=Lobster&display=swap');
 body{
-    background-image: url(https://www.valenciabonita.es/wp-content/uploads/2017/12/Pistas-de-hielo-en-la-plaza-del-Ayuntamiento-Valencia.jpg);
+    background-image: url(https://www.ikea.com/es/es/images/products/vinter-2021-bola-arbol-navidad-rojo__0888658_pe782115_s5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -12,11 +12,12 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 200px;
-    border: 15px ridge crimson;;
+    border: 15px ridge crimson;
+    background-color: black;
 }
 .clock{
     color:white;
-    border: 15px ridge crimson;
+    border: 15px outset gold;
     margin: 10px;
     font-family: 'Gwendolyn', cursive;
     
@@ -33,4 +34,7 @@ body{
     font-family: 'Gwendolyn', cursive;
     font-size:4em;
     margin-top: 50px;
+}
+p{
+    --animate-duration: 5s;
 }
