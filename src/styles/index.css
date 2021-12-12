@@ -1,12 +1,36 @@
-
-/* 
-
-    You can write your own styles here...
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn&family=Lobster&display=swap');
+body{
+    background-image: url(https://www.valenciabonita.es/wp-content/uploads/2017/12/Pistas-de-hielo-en-la-plaza-del-Ayuntamiento-Valencia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#app{
+    height: 1000px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    border: 15px ridge crimson;;
+}
+.clock{
+    color:white;
+    border: 15px ridge crimson;
+    margin: 10px;
+    font-family: 'Gwendolyn', cursive;
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.center{
+    font-size:4em;
+    background-color: black;
+}
+.center1{
+    display: flex;
+    justify-content: center;
+    color:gold;
+    font-family: 'Gwendolyn', cursive;
+    font-size:4em;
+    margin-top: 50px;
+}
